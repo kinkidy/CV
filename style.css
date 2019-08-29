@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+#cv-content {
+    display: flex;
+    flex-flow: row;
+}
+
+#left-info {
+    background-color:teal;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    padding-top: 20px;    
+}
+
+#right-info {
+    background-color: rgb(2, 39, 39);
+    height: 100%;
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 30%;
+}
+
+#personal-info{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+#personal-info h1{
+    padding-bottom: 5px;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-flow: row;
+    justify-content: center
+}
+
+.get-in-touch a{
+    text-decoration: none;
+}
+
+ul {
+    border-left: solid 3px green;
+    list-style-type: none;
+}
+
+ul:hover {
+    border-left: solid 3px white;
+}
+
+#left-info hr{
+    width: 20%;
+    color: green;
+}
