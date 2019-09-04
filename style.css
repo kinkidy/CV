@@ -1,0 +1,266 @@
+body {
+    background-color: black;
+}
+
+#cv-content {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+#left-info {
+    background-color:teal;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    padding-top: 20px;    
+}
+
+#right-info {
+    background-color: rgb(2, 39, 39);
+    height: 100%;
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 30%;
+}
+
+#personal-info{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+#personal-info h1{
+    padding-bottom: 5px;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-flow: row;
+    justify-content: center
+}
+
+.get-in-touch a{
+    text-decoration: none;
+}
+
+ul {
+    border-left: solid 3px green;
+    list-style-type: none;
+}
+
+ul:hover {
+    border-left: solid 3px white;
+}
+
+#left-info hr{
+    width: 20%;
+    color: green;
+}
+
+.get-in-touch {
+    margin: auto;
+    border-radius:5px;
+    width:150px;
+    color: white;
+    background-color: rgb(3, 104, 25);  
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    animation: bounce 1.5s infinite;
+}
+
+#get-in-touch {
+    margin: auto;
+    border-radius:5px;
+    width:150px;
+    color: white;
+    background-color: rgb(3, 104, 25);  
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    animation: bounce 2s infinite;
+}
+
+.get-in-touch:hover {
+    box-shadow: 15px 15px 15px 5px rgba(10, 10, 10, 0.219);
+}
+
+.shadow{
+    box-shadow: 0px 0px 60px 5px #AAA;
+    opacity: 0.5;
+    border-radius: 100px;
+    width: 150px; 
+    margin: 30px auto 30px auto;
+    padding: 0 20px;  
+    animation: shadow 1.5s infinite;
+  }
+
+button {
+    border-radius:5px;
+    width:150px;
+    color: white;
+    background-color: rgb(3, 104, 25);  
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    animation: bounce 4.5s infinite;
+}
+
+  @keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0, 8px);
+    }
+
+  }
+  @keyframes shadow{
+    0%{
+      
+    }
+    50%{
+      opacity: 0.8;
+      width: 150px;
+    }
+  }
+
+
+/* Contact form style */
+#right-info-contact {
+    background-color: rgba(5, 5, 5, 0.829);
+    height: 100%;
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 30%;
+}
+
+.contact {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contact-form {
+    margin:0 100px 0 100px;
+}
+
+.social-contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.social-button, .direct-button {
+    margin: 0 50px 45px 50px
+}
+
+.contact-form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.title {
+    background-color: rgb(252, 249, 250);
+    color: rgb(7, 7, 7);
+    width:100px;
+    border: none;
+    padding: 10px 0 10px 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.title:hover {
+    background-color: #DF1B76;
+    color: white;
+    width:120px;
+    border: none;
+    padding: 10px 0 10px 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.fname {
+
+    background-color: rgb(250, 246, 248);
+    color: rgb(7, 7, 7);
+    width:150px;
+    border: none;
+    padding: 15px 0 15px 10px;
+    margin: 10px auto;
+}
+
+.fname:hover {
+    background-color: rgb(10, 153, 197);
+    color: white;
+    width:200px;
+    border: none;
+    padding: 15px 0 15px 10px;
+    margin: 20px auto;
+}
+
+.sname {
+
+    background-color: rgb(246, 247, 243);
+    color: rgb(3, 3, 3);
+    width:200px;
+    border: none;
+    padding: 15px 0 15px 10px;
+    margin: 10px auto;
+}
+
+.sname:hover{
+    background-color: rgb(27, 223, 86);
+    color: white;
+    border: none;
+    width:300px;
+    padding: 15px 0 15px 10px;
+    
+  }
+
+.email {
+
+    background-color: rgb(245, 244, 244);
+    color: rgb(7, 7, 7);
+    width:250px;
+    border: none;
+    padding: 15px 0 15px 10px;
+    margin:10px auto;
+}
+
+.email:hover{
+    background-color: #DF1B76;
+    border-bottom: 5px solid #B2175F;
+    color: white;
+    border: none;
+    width:300px;
+    padding: 15px 0 15px 10px;    
+  }
+
+  .message {   
+    background-color: rgb(250, 247, 244);
+    color: black;
+    border-bottom: 5px solid rgb(195, 35, 17);
+    overflow: hidden;
+    height: 100px;  
+    width:300px;
+    margin:10px auto;
+    height: 150px;
+  }
+
+  .message:hover{
+    background-color: #2DD7BB;
+    border-bottom: 5px solid #2BB09A;
+    height: 100px;
+    width:500px;
+    height: 200px
+  }
+
+  input {
+      border-radius: 5px;
+  }
+
+  a {
+    color: white;
+    text-decoration-style: none;
+  }
