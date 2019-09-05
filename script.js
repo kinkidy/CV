@@ -1,3 +1,5 @@
+//verifying for email address
+
 var email = document.getElementById("mail");
 
 email.addEventListener("input", function (event) {
@@ -6,4 +8,9 @@ email.addEventListener("input", function (event) {
   } else {
     email.setCustomValidity("");
   }
+});
+
+// a pop upmessage after submitting
+document.getElementById("getInTouch").addEventListener("click", function() {
+  alert("Thank you for your message!!!");
 });
